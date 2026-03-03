@@ -11,7 +11,7 @@ public class ex5 {
 
         while (true) {
             System.out.print("Digite o nome de uma cidade (ou 'São Paulo' para encerrar): ");
-            cidade = teclado.nextLine().trim();
+            cidade = teclado.nextLine();
 
             if (cidade.equalsIgnoreCase("Sao Paulo")) {
                 break;
