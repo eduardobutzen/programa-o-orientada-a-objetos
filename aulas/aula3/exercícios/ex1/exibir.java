@@ -24,7 +24,7 @@ public class exibir {
             System.out.println("Ano: " + c[i].ano);
         }
 
-
+        teclado.close();
     }
     
 }
