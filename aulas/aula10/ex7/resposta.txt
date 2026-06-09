@@ -1,0 +1,3 @@
+Os exercícios 1, 4, 5 e 6 utilizam classes abstratas que possuem atributos (Conta, Veiculo, Pessoa, Funcionario). Interfaces não possuem atributos de instância, apenas constantes estáticas.
+
+Caso os atributos fossem removidos ou geridos em classes concretas, todos os métodos abstratos (Depositar, Sacar, Acelerar, Frear, EfetuarCompra, CalcularSalario) poderiam perfeitamente ser abstraídos através de interfaces.
